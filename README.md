@@ -1,2 +1,5 @@
-# landing-page
-Create A Landing Page In R Shiny
+# Create A "Landing Page" In R Shiny
+
+Q: How?
+
+A: `tabsetPanel(..., type = "hidden", ...)`
