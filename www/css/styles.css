@@ -30,11 +30,13 @@ body {
     justify-items: center;
     background-color: white;
     max-height: 50px;
+    padding: 10px;
 }
 
 .landing_page_content {
     margin-top: 5%;
     color: white;
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
