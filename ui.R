@@ -79,8 +79,9 @@ ui <- tabsetPanel(
             
             tags$h3(
               tags$span(
-                tags$strong("our "), 
-                "series.org", 
+                shiny::HTML(
+                  text = "<strong>our</strong><span>series.org</span>"
+                ), 
                 
                 icon(
                   name = "code", 
