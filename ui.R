@@ -28,15 +28,27 @@ sidebar <- dashboardSidebar(
 body <- dashboardBody(
   tabItems(
     tabItem(
-      tabName = "menu1"
+      tabName = "menu1", 
+      
+      tags$h3(
+        "Menu 1 Should Appear Here!"
+      )
     ), 
     
     tabItem(
-      tabName = "menu2"
+      tabName = "menu2", 
+      
+      tags$h3(
+        "Menu 2 Should Appear Here!"
+      )
     ), 
     
     tabItem(
-      tabName = "menu3"
+      tabName = "menu3", 
+      
+      tags$h3(
+        "Menu 3 Should Appear Here!"
+      )
     )
   )
 )
