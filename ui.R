@@ -139,12 +139,16 @@ ui <- tabsetPanel(
   tabPanelBody(
     value = "dashboard", 
     
-    dashboardPage(
-      header = header, 
-      sidebar = sidebar, 
-      body = body, 
-      title = "Landing Page", 
-      skin = "green"
+    # ----dashboardpage----
+    tags$div(
+      id = "div_dashboard", 
+      
+      dashboardPage(
+        header = header, 
+        sidebar = sidebar, 
+        body = body, 
+        title = "Landing Page"
+      )
     )
   )
 )
